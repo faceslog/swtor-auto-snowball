@@ -60,13 +60,12 @@ def automate_actions(cannon_icon, cannon_debuff, snowball_icon, snowball_debuff,
     packages_collected = 0
 
     print("Automation running. Press 'Q' to quit.")
+    bring_window_to_foreground(window_title)
 
     while True:
         if keyboard.is_pressed('q'):
             print("Exiting program...")
             break
-
-        bring_window_to_foreground(window_title)
 
         # Process cannon icon and debuff
         last_action_cannon = process_icon_and_debuff(
