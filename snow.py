@@ -47,7 +47,7 @@ def process_icon_and_debuff(icon_path, debuff_path, cooldown, last_action_time):
             locate_and_click(debuff_path, confidence=0.8, right_click=True)
             return current_time
         else:
-            print(f"Could not find icon: {icon_path}.")
+            print(f"Could not locate icon on the screen. Maybe was not ready yet, retrying ...")
     return last_action_time
 
 # ------------------- Main Automation Logic -------------------
