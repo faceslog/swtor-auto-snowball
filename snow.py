@@ -43,7 +43,7 @@ def process_icon_and_debuff(icon_path, debuff_path, cooldown, last_action_time):
     """
     current_time = time.time()
     if current_time - last_action_time >= cooldown:
-        if locate_and_click(icon_path, confidence=0.6):
+        if locate_and_click(icon_path, confidence=0.8):
             locate_and_click(debuff_path, confidence=0.8, right_click=True)
             return current_time
         else:
@@ -73,7 +73,7 @@ def automate_actions(cannon_icon, cannon_debuff, snowball_icon, snowball_debuff,
         )
 
         # Process accept button
-        if locate_and_click(accept_button, confidence=0.8):
+        if locate_and_click(accept_button, confidence=0.6):
             packages_collected += 1
 
         # Process snowball icon and debuff
@@ -82,7 +82,7 @@ def automate_actions(cannon_icon, cannon_debuff, snowball_icon, snowball_debuff,
         )
 
         # Process accept button again
-        if locate_and_click(accept_button, confidence=0.8):
+        if locate_and_click(accept_button, confidence=0.6):
             packages_collected += 1
 
         time.sleep(1)
