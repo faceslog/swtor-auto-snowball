@@ -3,3 +3,4 @@ build/
 dist/
 me.md
 santa.ico
+*.spec
