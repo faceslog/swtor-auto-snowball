@@ -46,7 +46,7 @@
      3. Continuously accept parcels as they appear.
 
 3. **Stop the Script**:
-   - Press the `Q` key at any time to safely exit the program.
+   - Long Press (2sec) the `Q` key at any time to safely exit the program.
 
 ## Good to know:
 
