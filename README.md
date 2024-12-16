@@ -2,6 +2,8 @@
 
 ![Farming Parcels](assets/demo.gif)
 
+[![Download Exe](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download exe")](https://github.com/faceslog/swtor-auto-snowball/releases/download/latest/snow.exe)
+
 ## A) Prerequisites (You can skip this step if you use the build from the release page)
 
 1. **Install Python**:
