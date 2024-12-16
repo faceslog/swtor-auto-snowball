@@ -22,29 +22,13 @@
      pip install -r requirements.txt
      ```
 
-## Setup
-
-1. **Image Assets**:
-   - Place images of your cannon, snowball, debuffs, and accept button in the same directory as the script.
-   - Ensure the images are named correctly:
-     - `icon1.JPG`: Image of the cannon.
-     - `debuff1.JPG`: Image of the cannon debuff.
-     - `icon2.JPG`: Image of the snowball.
-     - `debuff2.JPG`: Image of the snowball debuff.
-     - `accept.JPG`: Image of the accept button for the parcels.
-
-2. **Cooldown Times**:
-   - Adjust the cooldowns in the script if needed:
-     - Default cannon cooldown: **6 seconds**.
-     - Default snowball cooldown: **14 seconds**.
-
 ## Running the Script
 
 1. **In-Game Preparations**:
    - Go to your stronghold or a safe area in the game where you won't be interrupted.
    - Place the **cannon** and **snowball** actions on your quickbars.
    - Ensure you have a pet summoned and set it as your target.
-   - Make sure you are within range to use the cannon.
+   - Make sure you are within range to use the cannon and snowball (around 10m).
    - If possible use the interface provided as `assets/ui.xml` in this repo
 
 2. **Start the Script**:
@@ -62,6 +46,22 @@
 
 3. **Stop the Script**:
    - Press the `Q` key at any time to safely exit the program.
+
+## Good to know:
+
+1. **Image Assets**:
+   - Place images of your cannon, snowball, debuffs, and accept button in the same directory as the script.
+   - Ensure the images are named correctly:
+     - `icon1.JPG`: Image of the cannon.
+     - `debuff1.JPG`: Image of the cannon debuff.
+     - `icon2.JPG`: Image of the snowball.
+     - `debuff2.JPG`: Image of the snowball debuff.
+     - `accept.JPG`: Image of the accept button for the parcels.
+
+2. **Cooldown Times**:
+   - Adjust the cooldowns in the script if needed:
+     - Default cannon cooldown: **6 seconds**.
+     - Default snowball cooldown: **14 seconds**.
 
 ## Notes
 
