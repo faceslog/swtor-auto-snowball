@@ -28,7 +28,7 @@
    - Go to your stronghold or a safe area in the game where you won't be interrupted.
    - Place the **cannon** and **snowball** actions on your quickbars.
    - Ensure you have a pet summoned and set it as your target.
-   - Make sure you are within range to use the cannon and snowball (around 10m).
+   - Make sure you are within range to use the cannon and snowball (around +1m).
    - If possible use the interface provided as `assets/ui.xml` in this repo
 
 2. **Start the Script**:
