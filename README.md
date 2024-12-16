@@ -9,10 +9,11 @@
    - You can download Python from [python.org](https://www.python.org/).
 
 2. **Install Required Dependencies**:
-
-   - Create a virtual env and activate it:
+   - Open a terminal as admin (required for swtor autoclick for some users)
+   - Create a virtual env and activate it using powershell:
      ```sh
      python -m venv myenv
+     # For powershell use .ps1 for cmd use .bat 
      myenv/Scripts/Activate.ps1
      ```
 
