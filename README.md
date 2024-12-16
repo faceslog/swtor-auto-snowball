@@ -2,7 +2,7 @@
 
 ![Farming Parcels](assets/demo.gif)
 
-## Prerequisites
+## A) Prerequisites (You can skip this step if you use the build from the release page)
 
 1. **Install Python**:
    - Ensure Python is installed and added to your system PATH.
@@ -22,7 +22,7 @@
      pip install -r requirements.txt
      ```
 
-## Running the Script
+## B) Running the Script
 
 1. **In-Game Preparations**:
    - Go to your stronghold or a safe area in the game where you won't be interrupted.
@@ -32,10 +32,11 @@
    - If possible use the interface provided as `assets/ui.xml` in this repo
 
 2. **Start the Script**:
-   - Run the script from your terminal or IDE:
+   - If using the script run the script from your terminal or IDE:
      ```
      python snow.py
      ```
+   - If using the .exe just launch it (sometimes you need to launch it as admin if it cannot get the focus of the window on swtor happens with autoclicker)
    - The script will start after a 5-second delay.
 
 3. **How It Works**:
